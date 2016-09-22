@@ -1,3 +1,5 @@
+error("CUDA.jl is deprecated, use CUDArt.jl or CUDAdrv.jl instead.")
+
 module CUDA
 
     import Base.length, Base.size
